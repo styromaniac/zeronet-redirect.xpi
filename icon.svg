@@ -1,0 +1,27 @@
+<svg version="1.1" id="svg2" sodipodi:docname="vectorstock_12809630.eps" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" viewBox="2111.63 1451.25 2430.83 2430.83">
+  <defs id="defs6">
+     <linearGradient id="MyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="5%" stop-color="#B2A4D4"/>
+        <stop offset="95%" stop-color="purple"/>
+     </linearGradient>
+     <filter id="dropshadow" height="130%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="160"/> 
+        <feOffset dx="160" dy="160" result="offsetblur"/> 
+        <feComponentTransfer>
+            <feFuncA type="linear" slope="1"/>
+        </feComponentTransfer>
+        <feMerge> 
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+  </defs>
+  <sodipodi:namedview id="namedview4" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1"/>
+  <g id="g8" inkscape:groupmode="layer" inkscape:label="ink_ext_XXXXXX" transform="matrix(1.3333333,0,0,-1.3333333,0,5333.3333)">
+    <g id="g10" transform="scale(0.1)">
+      <path d="M 50000,0 H 0 V 40000 H 50000 V 0" style="fill:none;fill-rule:nonzero;stroke:none" id="path12"/>
+      <path d="M 30272.4,16956 25000,13912 19727.6,16956 v 6088 l 5272.4,3044 5272.4,-3044 z M 25000,28515.6 17625.3,24257.8 v -8515.6 l 7374.7,-4257.8 7374.7,4257.8 v 8515.6 L 25000,28515.6" style="fill:url(#MyGradient);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#dropshadow)" id="path14"/>
+      <path d="m 21055.5,22266.9 v -4533.8 l 2229.3,-1289.2 v 4535.4 l 1698.1,980.9 1694.6,-980.9 -1694.6,-978.3 v -2402.5 l 1864.9,-1077 2103.1,1214.3 -1844.3,1065.2 v 0 0 l 1803.6,1040.6 v 2425.3 l -1.7,1.6 -3925.6,2266.9 -3927.4,-2268.5" style="fill:url(#MyGradient);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#dropshadow)" id="path16"/>
+    </g>
+  </g>
+</svg>
