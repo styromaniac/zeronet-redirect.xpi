@@ -1,25 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
     <style>
+        h1 {
+          text-align:center;
+        }
         body {
-            padding: 10px;
+            max-width: 330px;
+            height: 330px;
+            word-wrap: break-word;
             font-family: Arial, sans-serif;
-            transition: background-color 0.3s ease, color 0.3s ease;
+            padding: 10px;
+            margin: 0;
+            background-image: url('icon.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+
+        /* Darken or lighten the background image by overlaying a semi-transparent color */
+        body::before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+
+        /* other styles remain the same... */
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                color: white;
+                text-shadow: 0px 0px 16px #000;
+            }
+
+            body::before {
+                background-color: black;
+                opacity: .7;
+            }
+
+            /* other styles remain the same... */
         }
 
         @media (prefers-color-scheme: light) {
             body {
-                background-color: #ffffff;
                 color: #000000;
+                text-shadow: 0px 0px 16px #fff;
             }
-        }
 
-        @media (prefers-color-scheme: dark) {
-            body {
-                background-color: #000000;
-                color: #ffffff;
+            body::before {
+                background-color: #ffffff;
+                opacity: .7;
             }
+
+            /* other styles remain the same... */
         }
     </style>
 </head>

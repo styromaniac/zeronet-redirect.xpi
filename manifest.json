@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "ZeroNet Redirect",
-  "version": "1.0",
-  "description": "Automatically redirects ZeroNet domains to your local ZeroNet instance",
+  "version": "1.1",
+  "description": "Automatically redirects ZeroNet domains to your local ZeroNet instance so that you don't need to type 127.0.0.1:43110.",
   "permissions": ["webRequest", "webRequestBlocking", "*://*.bit/", "*://*.yo/", "*://*.yu/", "*://*.of/", "*://*.inf/", "*://*.zn/", "*://*.list/"],
   "background": {
     "scripts": ["background.js"]
